@@ -468,7 +468,7 @@ body {
       from(#ffb900),
       to(#ff7730)
     ),
-    url(../img/nat-5.jpg);
+    url(../images/freedom-fighter-1.jpg);
   background-image: linear-gradient(to bottom, #ffb900, #ffffff78, #ff7730),
     url(../images/freedom-fighter-1.jpg);
 }
@@ -1210,11 +1210,11 @@ body {
     background-image: -webkit-gradient(
         to bottom, #ff993394, #ffffff9f, #12880779
       ),
-      url(../img/images/header-image.jpg);
+      url(../images/header-image.jpg);
     background-image: linear-gradient(
         to bottom, #ff993394, #ffffff9f, #12880779
       ),
-      url(../img/images/header-image.jpg);
+      url(../images/header-image.jpg);
   }
 }
 @media only screen and (max-width: 37.5em) {
