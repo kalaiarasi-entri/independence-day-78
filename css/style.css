@@ -1161,6 +1161,15 @@ h2.celebration-text{
   background-position: top;
   position: relative;
 }
+
+.register-form .heading-secondary{
+  font-size:2.5rem;
+}
+
+.header-text-box {
+  position: absolute;
+  left: 3%;  
+}
 /* @supports (-webkit-clip-path: polygon(0 0)) or (clip-path: polygon(0 0)) or
   (-webkit-clip-path: polygon(0 0)) {
   .header {
@@ -1197,16 +1206,13 @@ h2.celebration-text{
 .header__logo {
   height: 3.5rem;
 }
-.header-text-box {
+/* .header-text-box {
   position: absolute;
-  /* top: 40%;
-  left: 50%; */
   top: 27%;
   left: 28%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  /* text-align: center; */
-}
+} */
 .navigation_checkbox {
   display: none;
 }
@@ -1229,12 +1235,64 @@ background-image: linear-gradient(to bottom, #FF9933, #FFFFFF, #128807);
     top: 4rem;
     right: 4rem;
   }
+  
 }
 @media only screen and (max-width: 37.5em) {
   .nav_button {
     top: 3rem;
     right: 3rem;
   }
+
+  .header-text-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width:70%;
+  }
+
+  .header-text-box .heading-primary-main,.header-sup sup,.heading-primary-sub{
+    font-size: 2rem;
+  }
+
+  .popup-content .heading-secondary{
+    font-size: 2rem;
+  }
+
+  .popup-content .header-text-box .btn, .btn:link, .btn:visited{
+    font-size: 1rem;
+  }
+  .popup-content .heading-fort{
+    font-size:1.5rem;
+  }
+
+  .popup-text {
+    column-count: 1;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+  .popup-content{
+    width:70%;
+    display: block;
+  }
+  .popup-right{
+    display: block;
+    width:100%;
+    padding:5%;
+  }
+  .popup-left{
+    display: block;
+    width:50%;
+    height: 20%;
+    padding:3% 3%;
+    text-align: center;
+  }
+  
+  .register-form .heading-secondary{
+    font-size:1.5rem;
+  }
+
 }
 .nav_background {
   opacity: 1;
@@ -1457,9 +1515,9 @@ background-image: linear-gradient(to bottom, #FF9933, #FFFFFF, #128807);
       105deg,
       rgba(255, 255, 255, 0.9) 0%,
       rgba(255, 255, 255, 0.9) 50%,
-      transparent 50%
+      transparent 200%
     ),
-    url(../img/nat-10.jpg);
+    url(../images/registration-image.png);
   background-size: 100%;
   border-radius: 3px;
   -webkit-box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.2);
@@ -1473,7 +1531,7 @@ background-image: linear-gradient(to bottom, #FF9933, #FFFFFF, #128807);
         rgba(255, 255, 255, 0.9) 65%,
         transparent 65%
       ),
-      url(../img/nat-10.jpg);
+      url(../images/registration-image.png);
     background-size: cover;
   }
 }
@@ -1486,13 +1544,13 @@ background-image: linear-gradient(to bottom, #FF9933, #FFFFFF, #128807);
         from(rgba(255, 255, 255, 0.9)),
         to(rgba(255, 255, 255, 0.9))
       ),
-      url(../img/nat-10.jpg);
+      url(../images/registration-image.png);
     background-image: linear-gradient(
         to right,
         rgba(255, 255, 255, 0.9) 0%,
         rgba(255, 255, 255, 0.9) 100%
       ),
-      url(../img/nat-10.jpg);
+      url(../images/registration-image.png);
   }
 }
 .register-form {
