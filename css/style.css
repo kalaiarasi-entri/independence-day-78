@@ -201,9 +201,7 @@ body {
   }
 }
 
-h2.celebration-text{
-    color:white;
-}
+
 .heading-secondary {
   font-size: 3.5rem;
   text-transform: uppercase;
@@ -1170,6 +1168,9 @@ h2.celebration-text{
   position: absolute;
   left: 3%;  
 }
+.section-about-fort .heading-secondary{
+  font-size: 3rem;
+}
 /* @supports (-webkit-clip-path: polygon(0 0)) or (clip-path: polygon(0 0)) or
   (-webkit-clip-path: polygon(0 0)) {
   .header {
@@ -1291,6 +1292,15 @@ background-image: linear-gradient(to bottom, #FF9933, #FFFFFF, #128807);
   
   .register-form .heading-secondary{
     font-size:1.5rem;
+  }
+
+  .section-about-fort .heading-secondary{
+    font-size: 2rem;
+    padding:2%;
+  }
+
+  .navigation_link:link, .navigation_link:visited {
+    font-size:2rem;
   }
 
 }
@@ -1529,7 +1539,7 @@ background-image: linear-gradient(to bottom, #FF9933, #FFFFFF, #128807);
         105deg,
         rgba(255, 255, 255, 0.9) 0%,
         rgba(255, 255, 255, 0.9) 65%,
-        transparent 65%
+        transparent 200%
       ),
       url(../images/registration-image.png);
     background-size: cover;
