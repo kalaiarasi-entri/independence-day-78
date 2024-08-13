@@ -740,7 +740,8 @@ body {
   border-radius: 2px;
   background-color: rbga(#fff, 0.5);
   border: none;
-  border-bottom: 3px solid transparent;
+  border: 1px solid #dbcccce6;
+  border-radius: 5px;
   width: 90%;
   display: block;
   -webkit-transition: all 0.3s;
